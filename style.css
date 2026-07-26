@@ -23,6 +23,7 @@ body{
 .navbar{
 
     display:flex;
+    flex-wrap:wrap;
     justify-content:space-between;
     align-items:center;
 
@@ -43,6 +44,7 @@ body{
     display:flex;
     list-style:none;
     gap:30px;
+    flex-wrap:wrap;
 
 }
 
@@ -145,6 +147,8 @@ body{
 .cards{
 
     display:flex;
+
+    flex-wrap:wrap;
 
     gap:30px;
 
